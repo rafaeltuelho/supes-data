@@ -1,35 +1,22 @@
 package org.acme;
 
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import io.vertx.core.json.Json;
-import io.vertx.core.json.JsonArray;
-import io.vertx.core.json.JsonObject;
-import io.vertx.mutiny.core.buffer.Buffer;
-import io.vertx.mutiny.ext.web.client.HttpResponse;
-import org.jboss.logging.Logger;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
-import picocli.CommandLine;
-import picocli.CommandLine.Command;
-import picocli.CommandLine.Parameters;
+import java.util.List;
 
 import javax.inject.Inject;
-import java.io.File;
-import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.UUID;
-import java.util.concurrent.CountDownLatch;
+
+import org.jboss.logging.Logger;
+
+import picocli.CommandLine;
+import picocli.CommandLine.Command;
 
 @Command(name = "scrape", mixinStandardHelpOptions = true)
 public class ScrapeCommand implements Runnable {
 
     @CommandLine.Option(names = "--scrape", required = false)
     boolean scrape;
+
+    @CommandLine.Option(names = "--powers", required = false)
+    boolean powers;
 
     @CommandLine.Option(names = "--generate", required = false)
     boolean generate;
@@ -63,10 +50,12 @@ public class ScrapeCommand implements Runnable {
             output.write(db.list());
         }
 
-//        var url = "/brother-voodoo/10-39/";
-//        var name = "Brother Voodoo";
-//        logger.infof("%s", scraper.scrape(new CharacterList.Entry(name, url)));
-
+    //    var url = "/brother-voodoo/10-39/";
+    //    var name = "Brother Voodoo";
+    //    logger.infof("%s", scraper.scrape(new CharacterList.Entry(name, url)));
+        if (scrape && powers) {
+            scraper.scrapeSuperPowers();
+        }
     }
 
 

@@ -1,0 +1,1752 @@
+[
+  {
+    "name": "Ability Shift",
+    "tier": "Base",
+    "score": 5,
+    "aliases": null,
+    "description": "Ability shift is the power to use a variety of powers through natural or artificial means. The drawback is that it is usually impossible to use two powers at once."
+  },
+  {
+    "name": "Abstract Existence",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "the ability to embody an abstraction, such as a concept, thought, or an information, and being immortal thanks to it."
+  },
+  {
+    "name": "Acausality",
+    "tier": "Major",
+    "score": 12,
+    "aliases": null,
+    "description": "The ability to act unrestrained by conventional cause and effect, on a scale that varies depending on the character. For some characters, this means not being affected by changes to the past; for others, this means defying all logic and acting with disregard for traditional causality."
+  },
+  {
+    "name": "Accelerated Development",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The ability to raise ones statistics and/or abilities at a much faster pace than a normal character in the setting is able to. Users of this ability are able to reap the fruits of their training with far less effort and time than most, with some characters improving their overall power effortlessly."
+  },
+  {
+    "name": "Accelerated Healing",
+    "tier": "Minor",
+    "score": 7,
+    "aliases": "Healing Factor, Super Healing",
+    "description": "Having accelerated healing generally means the ability to rapidly heal, though this varies on different levels. While Spider-Man can heal from basic injuries much quicker than a regular human, he could not recover from being liquified, unlike Deadpool or the Hulk."
+  },
+  {
+    "name": "Acid Manipulation",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "The ability to manipulate and/or produce acids, or potentially corrosive substances in general, such as digestive enzymes and strong bases. The user can create and control acids, bases, and other caustic or corrosive substances; they can control the causticity, where and how the acid affects the object, and the number of fumes it releases."
+  },
+  {
+    "name": "Acid Resistants",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The power to be resistant to highly corrosive substances"
+  },
+  {
+    "name": "Acidic Spit",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": ""
+  },
+  {
+    "name": "Acrobatics",
+    "tier": "Ability",
+    "score": 1,
+    "aliases": null,
+    "description": "The technique of performing maneuvers of balance, dexterity, agility, and coordination. In fiction, the levels of acrobatics can vary between simply performing extraordinary human movements to defiance of the laws of gravity and movement."
+  },
+  {
+    "name": "Adaptation",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "Adaptation is the power to gain immumity to something after first exposure, so the same trick never works twice. Doomsday has been able to fight Superman over and over again thanks to this ability."
+  },
+  {
+    "name": "Age Manipulation",
+    "tier": "Major",
+    "score": 14,
+    "aliases": null,
+    "description": "The ability to control the age of one's self, other organisms, and or objects. This can be used in a variety of ways, such as returning a target to a much younger state, rendering them a helpless child, or to rapidly age others, to old age and potentially even their death. In some cases, this effect is so powerful that it can reduce a user's surroundings to dust."
+  },
+  {
+    "name": "Agility",
+    "tier": "Ability",
+    "score": 1,
+    "aliases": "Augmented Agility",
+    "description": "User with this ability can go from one motion to another effortlessly, effectively dodge attacks, swing from things easily, sprint, do back-flips, leap across rooftops, and numerous other gymnastic, athletic and martial implements with little to no effort. Agility is \"the ability to rapidly respond or change by adapting its initial stable configuration\", the ability to change the body's position efficiently, and requires the integration of isolated movement skills using a combination of balance, bodily coordination, speed, reflexes, strength, and endurance."
+  },
+  {
+    "name": "Amphibious Respiration",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Amphibious Respiration is the ability to breath and adapt to both land and water climates."
+  },
+  {
+    "name": "Animal Attributes",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The ability to have any type of attribute of any type of animal, such as flying like a bird, but without wings for example."
+  },
+  {
+    "name": "Animal Control",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "The user can control animals, they can set stampedes onto attackers, get animals to fetch things."
+  },
+  {
+    "name": "Animal Oriented Powers",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Some powers are oriented around one animal or a specific animal appendage. The main animal appendages are the wings of a bird (but super sized to fit a human), the claws of a cat or other clawed animal, the skin of an armadillo, or the fins and gills of a fish. Hawkman is hawk-oriented, Spider-Man is spider-oriented, and (surprise, surprise) Cheetah is cheetah-oriented."
+  },
+  {
+    "name": "Animation",
+    "tier": "Minor",
+    "score": 6,
+    "aliases": null,
+    "description": "The power to bring inanimate objects to life or to free a person from petrification."
+  },
+  {
+    "name": "Anti-Gravity",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "Nullify gravity"
+  },
+  {
+    "name": "Antiforce Manipulation",
+    "tier": "Major",
+    "score": 12,
+    "aliases": "Antiforce control",
+    "description": "The power to manipulate anti-forces. Sub-power of Physical Force Manipulation. Also Called Anti-Force Control User can create, shape and manipulate anti or negative forces, which work in different ways depending on the force. Anti-gravity would repel objects instead of attract, anti-electromagnetism would cause like charges to attract and opposite charges to repel, anti-friction and anti -viscosity would speed up objects or flow instead of resist them, anti-strong force would cause nuclei to explode, and anti-weak force would cause \"radioactive growth\" instead of radioactive decay."
+  },
+  {
+    "name": "Antimatter Manipulation",
+    "tier": "Major",
+    "score": 12,
+    "aliases": null,
+    "description": "The power to control antimatter. Unlike ordinary matter, antimatter is composed of \"antiparticles\" which have the same mass of ordinary matter but also opposite charges, as well as other particle properties such as lepton and baryon numbers and quantum spin. This is an incredibly destructive power, as collisions between particles and antiparticles lead to the annihilation of both, ignoring durability in the process and causing an explosive release of energy capable of eclipsing a nuclear bomb with only a small amount of antimatter. The collisions also give rise to variable proportions of intense photons (gamma rays), neutrinos, and less massive particle-antiparticle pairs. The total consequence of annihilation is a release of energy available for work, proportional to the total matter and antimatter mass."
+  },
+  {
+    "name": "Apathy",
+    "tier": "Ability",
+    "score": 1,
+    "aliases": null,
+    "description": "The power to suppress or negate emotions in oneself or possess none at all. Unlike empathy, this power allows the user to ignore emotional distractions from affecting their thinking processes, such as suffering from or feeling psychological or emotional stress."
+  },
+  {
+    "name": "Apotheosis",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "Apotheosis is a form of adaption. When a character dies they can be brought back in a new form with new abilities. Doomsday uses this power, as does Resurrection Man."
+  },
+  {
+    "name": "Arcane Magic",
+    "tier": "Major",
+    "score": 10,
+    "aliases": null,
+    "description": ""
+  },
+  {
+    "name": "Astral Projection",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "Astral projection is, basically put, the ability to leave one's unconscious body in spiritual form. While not an extremely popular power, it is sometimes displayed as something that some powerful telepaths or sorcerers can do. However, it is sometimes believed to be its own power. Some astral projectors are not only able to leave their body, but are also able to enter the bodies of others. Notable users of astral projection include Rachel Summers, Raven, Deadman, Rose Wilson , Cable and Prue Halliwell from Charmed."
+  },
+  {
+    "name": "Astral Trap",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Astral trapping is the ability to cause an astral projection to stay on the astral plane. Doctor Strange has used this ability on Baron Mordo and vice-versa."
+  },
+  {
+    "name": "Astro Force",
+    "tier": "Grand",
+    "score": 30,
+    "aliases": null,
+    "description": "Orion wields a inter-dimensional cosmic energy field called the \"Astro Force\" drawn directly from the Source as the core from which his other abilities manifest from. This energy is channeled through his harness or Wristbands and allows him to heal himself, manipulate matter and energy, and even generate force field"
+  },
+  {
+    "name": "Attack Negation",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Attack Negation is the ability to cancel out damage from attacks. This can include pain and/or wounds, mental and physical, they or others take."
+  },
+  {
+    "name": "Attack Reflection",
+    "tier": "Minor",
+    "score": 7,
+    "aliases": null,
+    "description": "The explicit ability where a user can reverse any attack (from long-range attacks to melee) launched at them back at their opponent. This is a rather powerful ability, being able to perform offense and defense simultaneously by effectively turning one's efforts against them. Some common methods include deflecting the attack upon contact with the mirror-based surface, bending the attack with force, or absorbing the attack and firing it in the opposite direction."
+  },
+  {
+    "name": "Audio Alteration",
+    "tier": "Major",
+    "score": 10,
+    "aliases": null,
+    "description": "The ability to allow in any way to influence the matter, energy, or even reality itself by means of sounds."
+  },
+  {
+    "name": "Audio Control",
+    "tier": "Major",
+    "score": 12,
+    "aliases": "Audiokinesis, Sound Control",
+    "description": "The ability to mentally manipulate sound waves."
+  },
+  {
+    "name": "Aura",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Ability to have energy envelop the user. It can be used (consciously or subconsciously) for a variety of purposes."
+  },
+  {
+    "name": "Avatar Creation",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The ability to create an incarnation, embodiment, or manifestation of a person in the place of one's true body, using it as an avatar. Users with this ability are able to summon the essence of a variety of entities to embody their physical appearance, abilities, and skills to interact with the world in a way their true forms, which may be too abstract to normally physically interact. One could also use the ability to manifest a body for another, more powerful entity."
+  },
+  {
+    "name": "Awakened Power",
+    "tier": "Minor",
+    "score": 7,
+    "aliases": null,
+    "description": "A sudden burst of power triggered by sheer determination or a powerful emotion. All the physical/mental abilities get heightened for a short amount of time, usually followed by a period of exhaustion or vulnerability. It differs from other similar powers such as: \"Berserk Mode\" or \"Rage Power\" because the user is still under control, able to think and act rational, not fueled by rage or blinded by emotions."
+  },
+  {
+    "name": "Axis Manipulation",
+    "tier": "Base",
+    "score": 2,
+    "aliases": "Axis Control, Axis of Rotation, Manipulation Axonaskinesis",
+    "description": "The ability to manipulate the axes of rotation."
+  },
+  {
+    "name": "Banish",
+    "tier": "Major",
+    "score": 10,
+    "aliases": null,
+    "description": "Banishing is the ability to send a person somewhere else, usually to trap them. It is a specialized variety of teleportation."
+  },
+  {
+    "name": "Berserk Mode",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "A condition in which a character, due to any psychological or physical effects, falls into an uncontrollable rage. Intelligence is often reduced to the level of animal instincts, and the person in this condition begins with attacking indiscriminately, with increased aggression. However, the person might pose a threat both to enemies and allies. Often accompanied by a sharp increase in attacking capacity at the expense of defense."
+  },
+  {
+    "name": "Biokinesis",
+    "tier": "Major",
+    "score": 14,
+    "aliases": null,
+    "description": "Biokinesis is the ability to control DNA. Biokinetics can shapeshift, alter their body composition and other things relating to the human body."
+  },
+  {
+    "name": "Bionics",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Artificial/Computerized enhancements"
+  },
+  {
+    "name": "Black Hole Manipulation",
+    "tier": "Major",
+    "score": 12,
+    "aliases": null,
+    "description": "The power to manipulate black holes. As a subset of Gravity Manipulation, Black Hole Manipulation allows the user to create, shape and manipulate black holes, regions of space-time where gravity prevents light and anything else from escaping. The user can also control the size of a black hole and move it around in space to absorb everything in its way. Since their immense gravity slows time, black holes can allow Time Travel to the future; if a few minutes or hours passes for the user near the event horizon, they may find it's hundreds of years in the future when they leave."
+  },
+  {
+    "name": "Blessed",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "A state in which the character in question is provided a boon or enhancement by another being. The user can increase their own physical and spiritual prowess via a positive supernatural benediction they have; this power usually activates when the user exhibits strong positive emotion or distress. As the user masters the power, the positive effects of the mystical benefit become less apparent as the victim's body becomes more accustomed to the blessing. In many cases, a granted blessing is dependent upon the one who gave the blessing to maintain or continue to approve of the blessing, and they could decide to revoke it if they wanted to."
+  },
+  {
+    "name": "Blood Manipulation",
+    "tier": "Major",
+    "score": 10,
+    "aliases": null,
+    "description": "Often called Bloodbbending or Hematokinesis, this ability allows the user to create, shape, and manipulate blood of oneself, others, or from their surroundings, such as blood banks, hospitals, or battlefields. They can affect the blood and modify, transform, use as an attack, protect, or even enhance the body and affect the body as a whole, rewriting the genetic code of blood cells."
+  },
+  {
+    "name": "Bloodlust",
+    "tier": "Ability",
+    "score": 1,
+    "aliases": null,
+    "description": "A state where a character is fighting without any inhibitions and cares about nothing other than defeating the enemy."
+  },
+  {
+    "name": "Body Inflation",
+    "tier": "Base",
+    "score": 2,
+    "aliases": "Inflating Body; Ballooning Body",
+    "description": "Body Inflation is the ability to expand, inflate, or swell the body of oneself like a balloon. This can also be used to swell or inflate parts of their own body, such as a fist, arm, leg, etc. In some cases, the user might have the ability to expand the body of others."
+  },
+  {
+    "name": "Body Puppetry",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "Body Puppetry is the ability to control the body or bodies of others. Unlike Mind Manipulation and Possession, it doesn't work off controlling the mind or inhabiting a body, rather it functions by controlling another's body directly from a distance without affecting the soul or mind. However, the result is often extremely similar, so it can often be confused as either the aforementioned abilities, even in-verse."
+  },
+  {
+    "name": "Bone Manipulation",
+    "tier": "Base",
+    "score": 3,
+    "aliases": null,
+    "description": "The ability to manipulate one's own bones or that of others. Users have complete control over the bones of oneself and others, including growing, shaping, manipulating density/weight, using as projectiles/weapons, etc. They can also manipulate bare skeletons or separate bones."
+  },
+  {
+    "name": "Broadway Force",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Also known as \"The Music Meister Effect\". Broadway Force, previously considered a far more stable variation of Toonforce, is a power certain people can tap into, (usually depicted in the Musical Theater genre) by spontaneously breaking into song and dance, causing everyone and everything around them to became bound by it, and compelled to join in."
+  },
+  {
+    "name": "Bullet Time",
+    "tier": "Major",
+    "score": 12,
+    "aliases": null,
+    "description": "May be confused with superspeed, bullet time is the ability to slow down time perceptually, in order to fight at such extraordinary speeds that the hero can't be hit or shot. This ability became popular through the 1999 movie The Matrix. It can be seen used by Neo, Morpheus, and others. The effect originally appeared in the first Blade movie."
+  },
+  {
+    "name": "Camouflage",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Camouflage is the method which allows an otherwise visible organism or object to remain indiscernible from the surrounding environment. The word camouflage comes from the French word 'camoufler' meaning 'to disguise'."
+  },
+  {
+    "name": "Causality Manipulation",
+    "tier": "Major",
+    "score": 12,
+    "aliases": null,
+    "description": "The user can redirect any cause to any effect, undo anything by inverting the relation cause/effect, or even separate them entirely, making a specific effect impossible to be caused or a specific cause not producing any effect. This allows one to achieve virtually anything by redirecting the selected cause to the desired effect. A finger snap which normally causes sound and kinetic force could instead cause a sun explosion or a massive resurrection. The user could also instantly erase anything from existence, by making its existence the cause of it's own nonexistence. Another possibility is the instant rewriting of a whole reality, by making Reality X (the current reality) the cause of Reality Y (a tailor-made one). At high level, the user would be able to rewrite the laws of causality as a whole, essentially playing God."
+  },
+  {
+    "name": "Causality Resistance",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": ""
+  },
+  {
+    "name": "Chain Manipulation",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The power to manipulate chains, along with chain-like weapons and chain-like objects. The user can create, summon, shape, manipulate and use any kind of chain and chain-like weapons, including flails, shaping and combining them as needed, or moving them with telekinesis. Mostly used the possibility of linking with chains and chain as a weapon, but there may be more exotic forms of application."
+  },
+  {
+    "name": "Changing Armor",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Changing armor is a unique type of armor capable of changing from one form to another, or changing pieces of the armor into tools or weapons. The armor can also repair itself from damage. The armor may be organic and have a mind of its own, like Spawn, Venom, and Witchblade. Or it may be mechanical, like Hardware or Iron Man."
+  },
+  {
+    "name": "Chaos Energy",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "It is an unstable energy, yet powerful energy that each Chaos Emerald and the Master Emerald generates by turning thoughts into power. This energy can be used for super transformation, to perform Chaos Control and various other chaos powers, or as a power source for machines. This power can be controlled by the Master Emerald, if requested or commanded by its guardian."
+  },
+  {
+    "name": "Chaos Magic",
+    "tier": "Grand",
+    "score": 25,
+    "aliases": null,
+    "description": "Chaos Magic is the name of a very powerful type of magic which allows the user to manipulate, warp and reconstruct the very fabric of existence and reality to the user's very whims and bring about total destruction to the cosmos."
+  },
+  {
+    "name": "Chaos Manipulation",
+    "tier": "Grand",
+    "score": 25,
+    "aliases": null,
+    "description": "Opposed to Order Manipulation, Chaos Manipulation is the ability to manipulate the chaotic forces of the universe while also manipulating or shattering probability and reality. With the power over disharmony, confusion, disorder, destructiveness, and strife, the user is able to change, mutate, destroy, or otherwise manipulate any matter, space/time, living beings, organizations, or minds and spirits as well as containing it, so it doesn't spread or spreads only on the desired way."
+  },
+  {
+    "name": "Chemokinesis",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "Chemokinesis is the ability to manipulate chemicals and chemical reactions."
+  },
+  {
+    "name": "Chi Manipulation",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Chi Manipulation (also known as Ki Manipulation) is the manipulation of a natural energy coursing within the body known as Chi, Qi, Ki, Youki, and many other names. This ability appears most frequently in Eastern media, where the concept of Chi was first derived, and is typically associated with Martial Arts."
+  },
+  {
+    "name": "Clairvoyance",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "Ability to perceive events that are taking place elsewhere or sense places that are not in view. Clairaudience is the auditory equivalent of this."
+  },
+  {
+    "name": "Clairvoyance Resistance",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": ""
+  },
+  {
+    "name": "Cloaking",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Being able to hide from some or any type of optical sight."
+  },
+  {
+    "name": "Cloning",
+    "tier": "Base",
+    "score": 3,
+    "aliases": null,
+    "description": ""
+  },
+  {
+    "name": "Cloth Manipulation",
+    "tier": "Base",
+    "score": 3,
+    "aliases": null,
+    "description": "Also known as Clothing Manipulation, Cloth Manipulation is the ability to supernaturally use various cloths for uses inside and outside of combat. Usually it's applied to flexible materials like wool, cotton, and leather, but clothes made of unnatural, extraterrestrial or holy materials could also be attributed to this power. Users are able to create, shape and control clothing towards their will. While it may appear to be a limited and specific power at first, Cloth Manipulation can be a lot more versatile and effective than one might expect. Especially if the user in question can manipulate cloths that don't follow our natural laws or physics."
+  },
+  {
+    "name": "Cobra Kai Karate",
+    "tier": "Ability",
+    "score": 1,
+    "aliases": null,
+    "description": "Strike First. Strike Hard. No Mercy. Cobra Kai is purely offensive as they believe 'offence is the best defence.'"
+  },
+  {
+    "name": "Cold Resistance",
+    "tier": "Base",
+    "score": 3,
+    "aliases": "Coldproof, Cold Invulnerability, Cold Resistance, Cryokinetic Immunity,",
+    "description": "The power/ability to be resistant or immune to one, some, or all forms of cold."
+  },
+  {
+    "name": "Compassion Inducement",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The ability to induce strong, empathetic compassion within someone's heart."
+  },
+  {
+    "name": "Conceptual Manipulation",
+    "tier": "Major",
+    "score": 15,
+    "aliases": null,
+    "description": "The ability to manipulate, create, and/or destroy abstract concepts. This ability has a variety of applications, ranging from not combat applicable to incredibly dominating. Conceptual Manipulation involves the manipulation of universal concepts, and not the universe directly. However, through this power, one can change the universe's fundamental principles on the highest level."
+  },
+  {
+    "name": "Corruption",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Corruption is the ability to \"infect\" someone or something with one's power, making said object or person into a different being or state of being than it was before. It's a lot like Mind Manipulation or Possession, but normally, once infected, the \"corruptor\" doesn't have to do anything for the \"corrupted\" to become corrupted. Corruption can be done not only through the aforementioned methods such as Disease Manipulation, Biological Manipulation, Absorption, and so on, but it can also be done in such a way that there's no other way to classify it other than corruption. Despite the negative connotation of the word \"corruption\", it's possible for this power to be used to make someone a better individual, albeit this is an incredibly rare application."
+  },
+  {
+    "name": "Corruption Resistance",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The power/ability to be resistant or immune to one, some, or all forms of Corruption."
+  },
+  {
+    "name": "Cosmic Awareness",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Power to be aware of anything that affects the user on a universal scale."
+  },
+  {
+    "name": "Creation",
+    "tier": "Grand",
+    "score": 30,
+    "aliases": null,
+    "description": "The ability to create anything from nothing."
+  },
+  {
+    "name": "Cryokinesis",
+    "tier": "Minor",
+    "score": 12,
+    "aliases": "Ice Manipulation",
+    "description": "Ability to reduce the kinetic energy of atoms and thus reduce temperature, often used to control, generate, or absorb ice."
+  },
+  {
+    "name": "Curse Manipulation",
+    "tier": "Minor",
+    "score": 6,
+    "aliases": null,
+    "description": "An ability that allows the user to inflict, generate, remove, and manipulate the nature of or even manifest curses as energy or powers itself, causing harm and misfortune against the target. While curses are primarily depicted as magical in nature and generally fall under the classification of Dark Arts, they sometimes fall under an entirely different designation."
+  },
+  {
+    "name": "Curse Resistance",
+    "tier": "Base",
+    "score": 3,
+    "aliases": null,
+    "description": ""
+  },
+  {
+    "name": "Damage Boost",
+    "tier": "Base",
+    "score": 8,
+    "aliases": null,
+    "description": "Also called Damage Amplification or Attack Boost, Damage Boost is an ability where the user can increase and amplify the damage the target takes making them easier to defeat or destroy. This differs from Statistics Amplification in the fact that the user isn't boosted, rather the attack itself. The effect is temporary, lasting as long as the condition allowing for its increased power is met. Due to this, the attack's usage is normally boosted considerably."
+  },
+  {
+    "name": "Damage Reduction",
+    "tier": "Base",
+    "score": 8,
+    "aliases": null,
+    "description": "Also known as \"Damage Minimalization\", Damage Reduction is the ability to decrease and reduce the damage the target takes. Those with this ability are usually considered hard-to-kill because of their potential to prolong the fight's duration without any fatal damage."
+  },
+  {
+    "name": "Damage Transferal",
+    "tier": "Minor",
+    "score": 10,
+    "aliases": null,
+    "description": "Damage Transferal is the ability to duplicate the wounds an individual suffered from on to their opponent or other individuals or objects. The ability can also be used to have the target such as a person or object take damage for the user or have the target suffer the same damage they suffered. The damage they share with the targeted individual or object could be physical, mental, spiritual or supernatural in nature or some combination of the above."
+  },
+  {
+    "name": "Danger Sense",
+    "tier": "Base",
+    "score": 3,
+    "aliases": null,
+    "description": "Danger sense is the ability to, simply put, sense danger. It is a limited form of Precognition. This power is often given different names, and like most mental powers, varies greatly from person to person. Spider-Man's danger sense is called his 'spider-sense', and alerts him when danger is near, though he does not always know the specifics of the danger."
+  },
+  {
+    "name": "Danmaku",
+    "tier": "Base",
+    "score": 3,
+    "aliases": null,
+    "description": "The ability to produce a great amount of projectiles at once, in order to overwhelm the target by the sheer number of shots. Some users also add complex patterns to make dodging additionally difficult."
+  },
+  {
+    "name": "Dark Arts",
+    "tier": "Minor",
+    "score": 12,
+    "aliases": null,
+    "description": "User can utilize the Black Arts: a form of magic typically used for selfish, self-serving and/or nefarious purposes. Though it is not necessarily \"evil\" magic, dark arts tend to focus toward destruction, harming, cursing and otherwise complicating the lives of other people while advancing the user's own state. Users often reject social convention and the status quo, which some suggest is in a search for spiritual freedom. As a part of this, they embrace magical techniques and practices that would traditionally be viewed as taboo and are generally willing to go farther than most would even consider if it serves their ends."
+  },
+  {
+    "name": "Dark Magic",
+    "tier": "Grand",
+    "score": 25,
+    "aliases": null,
+    "description": "The ability to allow manipulating aspects of reality (or all of them), bypassing the known laws of physics."
+  },
+  {
+    "name": "Dark Matter Manipulation",
+    "tier": "Major",
+    "score": 12,
+    "aliases": null,
+    "description": "The ability to manipulate dark matter."
+  },
+  {
+    "name": "Darkforce Manipulation",
+    "tier": "Major",
+    "score": 25,
+    "aliases": null,
+    "description": "Darkforce is a form of extradimensional energy that manifests itself in our universe as a non-reflective, highly opaque, black substance. Certain adepts use psionic, or magical means to draw this energy into our dimension and use it in various ways."
+  },
+  {
+    "name": "Data Manipulation",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Data Manipulation is the ability to manipulate computer data or digital information for a variety of purposes, such as creating, shaping, and manipulating data from systems and networks, converting real objects or entities into data, and vice versa. Although it seems limited to misinformation and hacking, various characters can use it on other planes as they themselves are made of data and can thus manipulate their own forms or those of others in the virtual or physical plane."
+  },
+  {
+    "name": "Death Manipulation",
+    "tier": "Grand",
+    "score": 96,
+    "aliases": null,
+    "description": "The power to manipulate and induce death. In its most straightforward applications, this ability allows the user to instantly kill others by manipulating factors associated with death to make them die. The method varies, however; some users may halt vital biological processes or attack the soul directly. Others affect their target on a more abstract level, simply causing them to die for no discernible reason, though death manipulation comes in many other forms, with some functioning on a conceptual scale. Death manipulation is often associated with necromancy and has a wealth of deeper potential uses and utility in the hands of a skilled user, with many death manipulators having the tools to kill even immortals and those with potent regenerative abilities easily."
+  },
+  {
+    "name": "Death Touch",
+    "tier": "Grand",
+    "score": 48,
+    "aliases": null,
+    "description": "Ability to kill or severely injure someone on touch."
+  },
+  {
+    "name": "Decay Embodiment",
+    "tier": "Minor",
+    "score": 8,
+    "aliases": null,
+    "description": "Control and Personifical Of All Decay Forces (Putrefation, Rust, Rot, Erosion, Necrosis, Death Inducement, Decomposition, Disease Generation/Manipulation)"
+  },
+  {
+    "name": "Density Control",
+    "tier": "Minor",
+    "score": 8,
+    "aliases": null,
+    "description": "Density control is the ability for a character to alter his or her density. The ability to decrease one's density is often called intangibility, and means that the user can do things such as walk through walls. The increasing of one's density usually involves hardening the user's skin. Some characters are able to do forms of both. Some of the most powerful telekinetics can phase by telekinetically negotiating the spaces between atoms."
+  },
+  {
+    "name": "Dexterity",
+    "tier": "Ability",
+    "score": 1,
+    "aliases": null,
+    "description": "Skillfulness in the use of the hands or body."
+  },
+  {
+    "name": "Dimension Storage",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The power to store anything in a fold of dimension/space and re-materialize at will."
+  },
+  {
+    "name": "Dimensional Awareness",
+    "tier": "Base",
+    "score": 3,
+    "aliases": null,
+    "description": "The power to detect cross-dimensional portals/barriers within their proximity. The user can sense activity in these portals from their own world. They can go so far as to detect the outer reaches of a dimension"
+  },
+  {
+    "name": "Dimensional Travel",
+    "tier": "Major",
+    "score": 10,
+    "aliases": null,
+    "description": "Ability to travel to other dimensions."
+  },
+  {
+    "name": "Disguise Mastery",
+    "tier": "Ability",
+    "score": 1,
+    "aliases": null,
+    "description": "The skill to possess great skills in acting and disguise. Not to be confused with Shapeshifting."
+  },
+  {
+    "name": "Divinity",
+    "tier": "Major",
+    "score": 10,
+    "aliases": null,
+    "description": "The power to have powers from a divine source. Opposite to Demonic Source. The user has divinity and divine powers granting them an immense amount of raw power beyond the mundane, making users a divine being by nature, a status which can be obtained a number of different ways. Users can gain divinity by having a divine ancestry, transform into a deity either by another god or by faith, channels, acts as a vessel for, the power/soul of a deity, mimic/steal powers from a deity, or be enhanced/evolved to the point of godhood. The level and forms of divinity is variable and unique by the user's nature and character of being, thus weaker or stronger users of divinities is ultimately reliant on the user alone."
+  },
+  {
+    "name": "Dream Manipulation",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "Dream Manipulation is the power to affect and control dreams. This is an ability that can vary greatly in complexity and power, with the most simple usages of it can only just alter dreams with no direct repercussions stemming from them. However, the real, powerful users of this ability can use it in a number of ways. Some can travel through the dreams of others and use them as a medium for communication or even for attack, striking at other people in their dreams, potentially affecting them in the real world. The greatest users of this power can completely control the world of dreams as another plane of reality, toying with it and altering dreams according to their whims, with some even being capable of dragging others into the world of dreams to kill or imprison them within its boundaries."
+  },
+  {
+    "name": "Duplication",
+    "tier": "Minor",
+    "score": 6,
+    "aliases": null,
+    "description": "Duplication is the ability to produce duplicates of the user. One of the most famous users of duplication is Multiple Man. Some users have limits on the amount of duplicates they can produce, such as Triplicate Girl/Triad, who can only produce two duplicates. For some users, this power may produce duplicates with different personalities and attributes from the original."
+  },
+  {
+    "name": "Durability",
+    "tier": "Stat",
+    "score": 0,
+    "aliases": null,
+    "description": "Resistance to physical injury."
+  },
+  {
+    "name": "Durability Negation",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "The ability that allows users to damage the target, regardless of its durability. In particular, enables causing serious damage to a very strong opponent, even in the absence of large attack potency."
+  },
+  {
+    "name": "Eagle Fang Karate",
+    "tier": "Ability",
+    "score": 1,
+    "aliases": null,
+    "description": "Strike First. Strike Hard. Have Honour. Eagle Fang Karate has the same offensive style as Cobra Kai but they see that there is a difference between no mercy and no honour."
+  },
+  {
+    "name": "Ectoplasm Manipulation",
+    "tier": "Base",
+    "score": 3,
+    "aliases": null,
+    "description": "The power to manipulate ectoplasm. The user can create, shape, and manipulate extra-planar energy unique to spirits and/or ghosts called ectoplasm, a substance that comes from planes beyond the physical as a variable-state form of matter-energy. Because of its unstable, esoteric properties, ectoplasm reacts to normal matter/energy in unusual and useful ways, including being able to ignore most of them. While ectoplasm usually appears as energy beams or balls the user can charge and fire at enemies, its form can range from raw seething energy to a misty vapor, viscous gelatin, a bundle of fine threads, a living membrane, or a fine, fabric-like tissue that can also be solidified and used for material purposes such as creating constructs, weapons, and forcefields. Ectoplasmic Attacks can act as a form of Soul Manipulation which ignore the intangibility that is normally associated with ghosts or spirits and even conventional durability at higher levels. However, these attacks don't harm living beings and if a ghost uses this power, it may cause them to eat away at their own body."
+  },
+  {
+    "name": "Elasticity",
+    "tier": "Minor",
+    "score": 10,
+    "aliases": null,
+    "description": "Elasticity is a power allowing the user to stretch his or her body, like rubber, into any shape or form the user wants. This power was first famously used by Plastic Man, though the original elastic character was Ping the Elastic Man, who predated Plastic Man by two years. The power was also used by characters such as Elongated Man, Mr. Fantastic, and Elasti-Girl."
+  },
+  {
+    "name": "Electrical Transport",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The ability to convert oneself into conductive energy and travel through electrical lines, often entering through devices such as televisions, electrical poles, or computers, among others. This ability can be seen used by Electro and Livewire. The Silver Age Atom teleported through telephone lines by becoming a subatomic particle and physically trevelling along the lines at lightspeed... it sounded feasable at the time, but today's use of satellite links, microwave towers and mobile phones has rendered this version obsolete."
+  },
+  {
+    "name": "Electricity Absorption",
+    "tier": "Base",
+    "score": 4,
+    "aliases": null,
+    "description": "Ability to electricity absorb in one or many forms. This could make an energy attack less damaging or not damage at all."
+  },
+  {
+    "name": "Electricity Resistance",
+    "tier": "Base",
+    "score": 3,
+    "aliases": null,
+    "description": "Not being injured from some or all types of electricity."
+  },
+  {
+    "name": "Electro-Magnetism Manipulation",
+    "tier": "Major",
+    "score": 15,
+    "aliases": null,
+    "description": "User can create, shape and manipulate electromagnetism which (with the exception of gravitation) account for almost all physical phenomena observable to the unaided human senses, including light and other electromagnetic radiation, all of chemistry, most of mechanics (excepting gravitation), and of course magnetism and electricity. That being said, only a few truly powerful individuals are capable of reaching such heights of power, most users have to content themselves with lesser if still impressive abilities."
+  },
+  {
+    "name": "Electrokinesis",
+    "tier": "Major",
+    "score": 12,
+    "aliases": null,
+    "description": "Electrokinesis is the ability to control, generate, or absorb electricity. This power is usually deemed as very powerful, specifically in the case of Electro, who has charged up to one million volts of electricity."
+  },
+  {
+    "name": "Elemental Transformation",
+    "tier": "Major",
+    "score": 15,
+    "aliases": null,
+    "description": "The ability to change the form of someone's body to a type of element such as earth, water, and other elements. This ability is mainly known to the superhero Metamorpho."
+  },
+  {
+    "name": "Emotional Power Up",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The ability to power up by emotion"
+  },
+  {
+    "name": "EMP Generation",
+    "tier": "Base",
+    "score": 3,
+    "aliases": null,
+    "description": "The user can produce a surge of electromagnetic energy, which can disrupt all technology nearby. The pulse may come from the user's hands or even from their entire body."
+  },
+  {
+    "name": "Empathy",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Super empathy, while not a very popular power, can be useful in some situations. Super empathy varies in use, often being psychic or magical in nature. Some super empathy is so strong that it actually allows the empath to use the powers and abilities of the person."
+  },
+  {
+    "name": "Endurance",
+    "tier": "Base",
+    "score": 2,
+    "aliases": "Stress Tolerance, Resilience",
+    "description": "The ability to endure difficult or unpleasant stresses beyond the limits and capabilities of the greatest humans. This attribute differs from Stamina as it enables users to do things such as operating on a \"low power setting\" (being able to operate efficiently for extended amounts of time), holding their breath for large periods of time, remain calm through stressful or painful situations, tolerate extreme hunger, unbearable thirst, and strong urges to sleep."
+  },
+  {
+    "name": "Energy Absorption",
+    "tier": "Major",
+    "score": 12,
+    "aliases": null,
+    "description": "Ability to absorp energy in one or many forms. This could make an energy attack less damaging or not damage at all. Some characters can reuse this energy to their advantage. Characters can also absorpt ambient energy and use it to their advantage; create forcefields, energy blasts, etc."
+  },
+  {
+    "name": "Energy Armor",
+    "tier": "Base",
+    "score": 3,
+    "aliases": null,
+    "description": "Energy armor is a field of energy protecting a character, using an advanced form of energy control. Energy armor is usually manifested in form of some outer shell, with the controller as the heart of the armor. This is usually used to enhance the controller's power."
+  },
+  {
+    "name": "Energy Beams",
+    "tier": "Major",
+    "score": 12,
+    "aliases": null,
+    "description": "The ability to generate or transform various forms of energy into a \"solid\" or concussive beam of energy."
+  },
+  {
+    "name": "Energy Blasts",
+    "tier": "Minor",
+    "score": 8,
+    "aliases": null,
+    "description": "Energy blasts are forms of energy that are expelled from the body, most often from the hands."
+  },
+  {
+    "name": "Energy Constructs",
+    "tier": "Minor",
+    "score": 6,
+    "aliases": null,
+    "description": "Ability to create constructs made of energy. Often the shape is limited by the creators imagination."
+  },
+  {
+    "name": "Energy Embodiment",
+    "tier": "Grand",
+    "score": 48,
+    "aliases": null,
+    "description": "The user becomes the physical manifestation or representation of a form/all forms of energy in their reality, gaining limitless control over that energy and all energy-based powers."
+  },
+  {
+    "name": "Energy Manipulation",
+    "tier": "Grand",
+    "score": 25,
+    "aliases": null,
+    "description": "The ability to control and generate various forms of energy."
+  },
+  {
+    "name": "Energy Resistance",
+    "tier": "Minor",
+    "score": 6,
+    "aliases": null,
+    "description": ""
+  },
+  {
+    "name": "Enhanced Condition",
+    "tier": "Base",
+    "score": 2,
+    "aliases": "Augmented/Advanced/Heightened/Increased/Inhuman Condition, Enhanced Physiology",
+    "description": "The power to possess capabilities, attributes, and aspects beyond that of the peak members of their species. Advanced combination of Enhanced Body and Enhanced Mind. Users possess all their capabilities, attributes and aspects at an enhanced level, beyond that of the peak members of their own species. This means the user's aspects (E.g. beauty, charisma, character and physique) attributes (E.g. physical and mental condition) as well as capabilities (E.g. potential, feats, skills and abilities, be it natural or supernatural) would be beyond that of anyone they meet. In human terms, this entails that an enhanced human would have an enhanced mental and physical condition, incredible judgement, knowledge, creativity, imagination and other cognitive and brain-related abilities as well as being able to lift weights and output strength even the strongest weightlifters couldn't hope to achieve, moving at speeds similar to that of cars to even subsonic speeds, being immune to nigh-fatal damage and harm and performing at peak performance without tiring for long periods. In conclusion, the user is an all-rounder that is superior overall to practically all other members in their species and almost all beings in their universe."
+  },
+  {
+    "name": "Enhanced Hearing",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Also known as Super Hearing. The ability to perceive sounds of varying volume or pitch beyond the scope of normal human capability. Some individuals possessing enhanced hearing can develop enough control to block out ambient sounds to focus on a specific source or frequency. As such, they can identify a person by their heartbeat, or pick out a single voice in an entire city. Cybernetic characters may possess mechanical components which likewise enable them to hear with greater scope and clarity."
+  },
+  {
+    "name": "Enhanced Memory",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The ability to quickly absorb and accurately retain great amounts of information."
+  },
+  {
+    "name": "Enhanced Smell",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The ability to identify scents with greater precision than the average human being. This ability is particularly useful for tracking prey, perceiving the invisible, or navigating in an unfamiliar environment."
+  },
+  {
+    "name": "Enhanced Taste",
+    "tier": "Ability",
+    "score": 2,
+    "aliases": null,
+    "description": ""
+  },
+  {
+    "name": "Enhanced Thievery",
+    "tier": "Ability",
+    "score": 1,
+    "aliases": null,
+    "description": "The ability to possess skills that allow one to rob, steal, and loot like a master thief. Masters of this skill are more elusive than the average thief. They are able to blend in with the shadows, slip into tight spaces, avoid detection from guards, and escape without leaving behind any evidence."
+  },
+  {
+    "name": "Enhanced Touch",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": ""
+  },
+  {
+    "name": "Enigma Force",
+    "tier": "Grand",
+    "score": 48,
+    "aliases": null,
+    "description": "Captain Universe Powers, Symbiote God of Light"
+  },
+  {
+    "name": "Entropy Projection",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Entropy projection is the ability to cause potential energy to become kinetic energy."
+  },
+  {
+    "name": "Existence Erasure",
+    "tier": "Grand",
+    "score": 128,
+    "aliases": null,
+    "description": "The simple power to remove something from existence, leaving nothing behind, a level of destruction beyond incineration, vaporization, and atomization. Rather than just reducing something to its constituent parts, this ability leaves absolutely nothing behind. Powerful enough uses of this ability can even erase the mind and soul, if not more fundamental aspects of one's existence, such as concepts."
+  },
+  {
+    "name": "Existence Erasure Resistance",
+    "tier": "Grand",
+    "score": 64,
+    "aliases": null,
+    "description": "The ability to resist existence erasure (erasure from reality which includes the physical body, mind, and soul)."
+  },
+  {
+    "name": "Exorcism",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "to drive away demons who possess someone"
+  },
+  {
+    "name": "Explosion Manipulation",
+    "tier": "Base",
+    "score": 6,
+    "aliases": null,
+    "description": "Explosion Manipulation is the ability to generate spontaneous explosions at will. This can be achieved through a variety of means, such as weaponry, specialized technology, or through supernatural powers. Some users are even able to direct them and control their path, allowing them to demolish specific structures and foes and making it harder for one to escape the explosion."
+  },
+  {
+    "name": "Extrasensory Perception",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Also known as sensing, detection, or a sixth sense. The ability to detect energy signatures, matter signatures, or the like near the user."
+  },
+  {
+    "name": "Fate Manipulation",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "The ability to manipulate destiny itself to achieve a desired result. More subtle forms of the ability can simply nudge events in the users favor while more powerful variations can make it possible to ordain one's victory against their opponent."
+  },
+  {
+    "name": "Fate Resistance",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The power/ability to be resistant or immune to one or all forms of Fate Manipulation."
+  },
+  {
+    "name": "Fear Inducement",
+    "tier": "Base",
+    "score": 5,
+    "aliases": null,
+    "description": "The ability to induce crippling, terrifying fear within someone's heart."
+  },
+  {
+    "name": "Fear Manipulation",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "Fear Manipulation, otherwise known as Fear Inducement is the ability in which to inflict a level of \"fear\" on the target. Depending on the severity of the fear, the user can use this to manipulate the target, incapacitate them or simply drive them insane."
+  },
+  {
+    "name": "Fire Control",
+    "tier": "Minor",
+    "score": 6,
+    "aliases": "Pyrokinesis",
+    "description": "Pyrokinesis is the ability to control, generate, or absorb fire. The first popular pyrokinetic in comics was the Golden Age Human Torch. The power later evolved and characters such as Fire, Pyro, and the second Human Torch were also given pyrokinesis."
+  },
+  {
+    "name": "Fire Resistance",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "Not being injured from some or all types of fire."
+  },
+  {
+    "name": "Flight",
+    "tier": "Base",
+    "score": 3,
+    "aliases": null,
+    "description": "Flight is an extremely common power used for transportation, allowing the user to lift off the ground and fly through the air. Like many common superpowers, flight was first popularized by Superman"
+  },
+  {
+    "name": "Food Manipulation",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "User can create, shape and manipulate food and other edible substances, including their shape, amount, taste, appearance, etc."
+  },
+  {
+    "name": "Force Fields",
+    "tier": "Minor",
+    "score": 6,
+    "aliases": null,
+    "description": "Force fields are usually invisible or transparent shields of energy that some characters produce as a form of protection. Though force fields are used in many different ways, they are usually shown in comics as a spherical, clear energy field covering the user."
+  },
+  {
+    "name": "Force Ghost",
+    "tier": "Major",
+    "score": 10,
+    "aliases": null,
+    "description": "Allows force-sensitive being to preserve their spirits after death."
+  },
+  {
+    "name": "Fusion",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "The ability to merge with others"
+  },
+  {
+    "name": "Gadget Usage",
+    "tier": "Ability",
+    "score": 1,
+    "aliases": null,
+    "description": "Users possess proficiency, capabilities and knowledge in gadgets, various mechanical and/or electronic devices, and use them to assist them in their endeavors. Examples include Batman (batarangs), Iron Man (armor), and Spider-man (web-shooters)."
+  },
+  {
+    "name": "Gliding",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Not flying or levitation, gliding is not very popular, but is the ability to have a mass or weight so small or wings so large that the user can easily be lifted off the ground and freely ride the air currents to anywhere. The second Atom often got around this way. Hawkman and Angel use this power in order to reserve strength when flying over large distances."
+  },
+  {
+    "name": "Goblin Force",
+    "tier": "Grand",
+    "score": 48,
+    "aliases": "Goblin Entity",
+    "description": "The Goblin Force is an entity of great power that threatens to destroy all of creation. It is the rival of the Phoenix Force. It is one of the most powerful beings in the Marvel universe."
+  },
+  {
+    "name": "Grappling/Climbing",
+    "tier": "Ability",
+    "score": 1,
+    "aliases": null,
+    "description": "The ability to possess great skills to grapple or climb on to anything with grappling or climbing equipment or powers."
+  },
+  {
+    "name": "Gravity Control",
+    "tier": "Major",
+    "score": 10,
+    "aliases": "Gravitokinesis",
+    "description": "Gravitokinesis is the ability to control or generate gravity. Though gravitokinesis is not as widespread as other powers, it has still managed to be an important power."
+  },
+  {
+    "name": "Greed Inducement",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The ability to induce powerful, dominating, greed within someone's heart."
+  },
+  {
+    "name": "Hacking",
+    "tier": "Ability",
+    "score": 1,
+    "aliases": null,
+    "description": "In fiction (and real life) hacking is the process of breaking into computers, robots, advanced artificial intelligences and/or software and taking control of the system. The process can be achieved through wireless connections or wired lines or through the addition of equipment (corrupted USB add-ons, nanomachines etc). Some fictions even extend the definitions into hacking things like reality or the human mind. In the latter case that would be a form of mind attack and the former is a form of reality warping. Hacking can also be described as a robot mind attack. Since robots are immune to conventional mind attacks hacking would be the next best thing."
+  },
+  {
+    "name": "Hair Manipulation",
+    "tier": "Base",
+    "score": 2,
+    "aliases": "Trichokinesis",
+    "description": "The user has complete control over the hair of oneself and others, allowing them to freely alter, grow out, chance texture, color, etc., shape and manipulate it as if it was appendage, weave the hair into different shapes, etc. Due to hair lacking nerves or being directly affected by changes in the nervous system, attacks and damage are virtually harmless to the user."
+  },
+  {
+    "name": "Heat Generation",
+    "tier": "Base",
+    "score": 3,
+    "aliases": "Thermokinesis",
+    "description": "The ability to generate, control and absorb thermal energy or molecular motion. In comics, this power can be used in a multitude of ways such as flight, by heating the air around the user to make them rise"
+  },
+  {
+    "name": "Heat Resistance",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Virtually immune to the effects of most or all forms of heat."
+  },
+  {
+    "name": "Hellfire Manipulation",
+    "tier": "Major",
+    "score": 10,
+    "aliases": null,
+    "description": "Hellfire Manipulation is the power to control the unique and intensely powerful demonic flames of Hell, capable of completely destroying anything. These fires are usually superior to regular flames as they surpass the harm that normal fire causes and are often capable of harming souls and preventing conventional regeneration. In some cases, hellfire can cause instant death, possibly even for relatively beneficial purposes, such as summoning spirits of the dead temporarily back to life from Hell."
+  },
+  {
+    "name": "Hellfire Resistance",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "The power/ability to be resistant or immune to one, some, or all forms of hellfire."
+  },
+  {
+    "name": "Higher Dimensional Manipulation",
+    "tier": "Major",
+    "score": 10,
+    "aliases": null,
+    "description": "Higher Dimensional Manipulation is the ability to manipulate greater spatial and temporal dimensions than 3-D space, such as 4-D space and above."
+  },
+  {
+    "name": "Hive-Mind",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The collective mental activity expressed in the complex, coordinated behavior of a colony of beings or organisms regarded as comparable to a single mind controlling the behavior of an individual organism. Hive-Mind allows a group of organisms to \"share\" the same mind. In some cases one individual could take control of another separate body to add to the hive. Each organism can work autonomously, though they think the same thing at the same time. Shared intelligence. Collective consciousness or collective intelligence."
+  },
+  {
+    "name": "Holy Manipulation",
+    "tier": "Major",
+    "score": 12,
+    "aliases": null,
+    "description": "The ability to manipulate divine or sacred energy and/or objects pertaining to such forces. It is a very broad term that has a variety of applications and frequently intersects with Light Manipulation, Healing, Magic, and other abilities generally considered to fall under the \"good\" or \"lawful\". Due to its nature, it is often extremely effective against those deemed \"evil\" or \"monstrous\", serving as a weakness to many characters under those categories."
+  },
+  {
+    "name": "Holy Resistance",
+    "tier": "Minor",
+    "score": 6,
+    "aliases": null,
+    "description": "The power/ability to be resistant or immune to one, some, or all forms of Holy Manipulation."
+  },
+  {
+    "name": "Homing Attack",
+    "tier": "Base",
+    "score": 3,
+    "aliases": null,
+    "description": "An ability that makes any object automatically follow, home in and lock onto its target until it hits them."
+  },
+  {
+    "name": "Hope Inducement",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The ability to aspiring, ambitious, hope within someone's heart."
+  },
+  {
+    "name": "Hunters Instinct",
+    "tier": "Ability",
+    "score": 1,
+    "aliases": null,
+    "description": "The ability to sense or handle stealth, hunting, and survival situations by experience"
+  },
+  {
+    "name": "Hyperkinesis",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": ""
+  },
+  {
+    "name": "Hypnokinesis",
+    "tier": "Major",
+    "score": 15,
+    "aliases": null,
+    "description": "Hypnokinesis is the ability to mentally send an individual into a trance-like state, and/or mentally manipulate an entranced individual via hypnotic suggestion. Hypnokinesis is associated with: telepathy and empathy as a form thereof, precognition and biofeedback. This ability is often attributed to Mesmero."
+  },
+  {
+    "name": "Hypnotic Suggestion",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "A trance-like state in which you have heightened focus and concentration. When you're under hypnosis, you usually feel calm and relaxed, and are more open to suggestions. A low-level mind control."
+  },
+  {
+    "name": "Illumination",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "To produce light from parts or whole body."
+  },
+  {
+    "name": "Illusion Resistance",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": ""
+  },
+  {
+    "name": "Illusions",
+    "tier": "Base",
+    "score": 3,
+    "aliases": null,
+    "description": "Illusions include any ability that alters or decieves the perceptions of another. In comics, these are primarily visual illusions, caused by mental powers. However, holograms and other light-based illusions are fairly common. Mastermind uses this power in all of his forms."
+  },
+  {
+    "name": "Immortality",
+    "tier": "Major",
+    "score": 14,
+    "aliases": null,
+    "description": "Immortality is the ability to live forever, eternal life, being exempt from death; unending existence."
+  },
+  {
+    "name": "Immortality Negation",
+    "tier": "Base",
+    "score": 5,
+    "aliases": null,
+    "description": "The ability to negate immortals."
+  },
+  {
+    "name": "Indestructible Digestion",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "To eat anything and not get hurt"
+  },
+  {
+    "name": "Indomitable Will",
+    "tier": "Ability",
+    "score": 2,
+    "aliases": null,
+    "description": "An ability where the user has unnaturally strong willpower, enabling them to be immune to all forms of temptation, such as subordination, telepathy, mind control, and seduction. The user can face great physical pain and psychological trauma and will refuse to surrender no matter how much the odds are stacked against them, possibly up to the point of cheating death and pushing themselves past their own limitations."
+  },
+  {
+    "name": "Information Analysis",
+    "tier": "Ability",
+    "score": 1,
+    "aliases": null,
+    "description": "The ability to gain information on a character or object by analyzing them. A basic analysis can grant only rudimentary data on the target, such as their level of strength, speed, durability, or intelligence, while more powerful analyses can grant extensive information on the target's abilities and even personal history. This ability often overlaps with Power Mimicry, allowing a character to copy another after analyzing them."
+  },
+  {
+    "name": "Information Manipulation",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Information Manipulation is the power to alter, control, and even destroy information itself, an incredibly useful ability given that information exists throughout everything in one form or another. On a small scale, this can allow information analysis, data manipulation, and potentially even directly drawing information from sources and absorbing it to use for one's self. On a large scale, users can manipulate the universe's fundamental information to warp its reality, laws, and even concepts, with ease."
+  },
+  {
+    "name": "Insanity",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Most supervillains and some superheros are insane. Though not usually considered a superpower, super insanity has proven to be just as useful as any other superpower in some instances. The insane usually have a high resistance to mental attacks and are capable of thinking outside the box."
+  },
+  {
+    "name": "Instinctive Reaction",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The ability to react to oncoming attacks without the need for conscious thought. As such, those with this ability will automatically dodge and possibly counter oncoming attacks through muscle memory or instinct. As a result, the user is free to utilize the mental effort that is normally spent on performing these movements on other things."
+  },
+  {
+    "name": "Intangibility",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "The ability to phase through physical matter."
+  },
+  {
+    "name": "Intelligence",
+    "tier": "Stat",
+    "score": 0,
+    "aliases": null,
+    "description": "Super intelligence is not always considered a superpower, and can just be a quality that a superhero possesses. One of the original superheroes, Doc Savage had extraordinary intelligence. However, some characters such as the villainous Leader have received their intelligence unnaturally as a superpower."
+  },
+  {
+    "name": "Intuitive aptitude",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The ability to analyze complex systems and intuitively understand how they work without special education or training."
+  },
+  {
+    "name": "Invisibility",
+    "tier": "Minor",
+    "score": 6,
+    "aliases": null,
+    "description": "The power to render oneself unable to be seen."
+  },
+  {
+    "name": "Invulnerability",
+    "tier": "Minor",
+    "score": 8,
+    "aliases": null,
+    "description": "Invulnerability was yet another power first shown by Superman, though it grew to be a much more common power. Invulnerability is basically the term for the ability to be impervious to harm without extreme measures. Other characters that have shown this ability include the Hulk and Wonder Woman."
+  },
+  {
+    "name": "Jaw Strength",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Having a large bite force."
+  },
+  {
+    "name": "Jump",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The ability to leap incredibly high and far was first made popular by Superman who was 'able to leap tall buildings in a single bound.' Superman's mode of transportation was later enhanced to flight. Some superheros still use super jumps as a means of transportation. These include Hulk and Spider-Man."
+  },
+  {
+    "name": "Lantern Power Ring",
+    "tier": "Major",
+    "score": 10,
+    "aliases": null,
+    "description": "A piece of jewelry that grants the wearer incredible powers. They are considered by some to be the most powerful weapons in the known universe. Depending on the skill and willpower of the wearer, it can do almost anything. The Ring grands a large variaty of powers, like; Energy Projection, Force Field, Energy Constructs, Phasing, Environmental Playback, Invisibility & Light Refraction, Energy Twin, Energy Absorption, Flight, Superhuman Strength, Wormholes & Spacial Warps, Time Travel and lots more...."
+  },
+  {
+    "name": "Large Size",
+    "tier": "Base",
+    "score": 2,
+    "aliases": "Gigantism, Superhuman Largeness, �?kīness",
+    "description": "Some characters have considerably higher measurements than ordinary ones, which causes some of their combat capabilities, especially strength, speed (although agility and maneuverability might be limited), and durability to increase. We call this having a Large Size. This should not be confused with Size Manipulation, as while manipulating one's size does grant one a larger or smaller size, someone with large size cannot, by default, actually control their size. Examples would be: Hulk, Doomsday, Bane, Optimus Prime, etc."
+  },
+  {
+    "name": "Laser Manipulation",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": ""
+  },
+  {
+    "name": "Latent Abilities",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "This ability involves the user's emotions being so strong that things break, explode, shake, disintegrate, or even melt, usually do to a severe shock to the users emotions (i.e. desperation, rage, fear, pain). The user?s limits are greatly exceeded and a new ability may show itself. All of the users wounds heal or are simply forgotten, and their appearance changes"
+  },
+  {
+    "name": "Law Manipulation",
+    "tier": "Major",
+    "score": 15,
+    "aliases": null,
+    "description": "The ability to control Laws, a system of rules imposed by an higher authority. This power allows the user to control a specific law, while high-level users can rewrite, control, redefine and create almost any law they want, or even enforce their own laws upon reality."
+  },
+  {
+    "name": "Levitation",
+    "tier": "Base",
+    "score": 3,
+    "aliases": null,
+    "description": "Often confused with Flying, Levitation is the ability to use the mind to be lifted off the ground and sent through the air. It can basically be seen as self-applied telekinesis. This power can be seen used by Martian Manhunter, Jean Grey, and others."
+  },
+  {
+    "name": "Life Manipulation",
+    "tier": "Grand",
+    "score": 96,
+    "aliases": null,
+    "description": "The ability to manipulate the life force that courses inside living beings or the very concept of life itself."
+  },
+  {
+    "name": "Light Control",
+    "tier": "Major",
+    "score": 12,
+    "aliases": "Photokinesis",
+    "description": "Photokinesis is the ability to control, generate, or absorb light itself. Photokinesis is actually one of the more popular of these types of powers, being shown off by the many Dr. Light characters, Dazzler, and Dagger, to name a few."
+  },
+  {
+    "name": "Liquid Transmutation",
+    "tier": "Base",
+    "score": 5,
+    "aliases": null,
+    "description": "This is the ability to transmute once self into liquid state. Main users of this ability are Mercury (Marvel) and Brainiac (DC)"
+  },
+  {
+    "name": "Longevity",
+    "tier": "Base",
+    "score": 5,
+    "aliases": null,
+    "description": "Slowing down of even stop the effects of aging."
+  },
+  {
+    "name": "Love Inducement",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The ability to induce tender, intimate love within someone's heart."
+  },
+  {
+    "name": "Luck",
+    "tier": "Minor",
+    "score": 8,
+    "aliases": null,
+    "description": "The ability to be constantly lucky. Sub-power of Probability Manipulation."
+  },
+  {
+    "name": "Madness Manipulation",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Rarely called \"parafrosýnikinesis\", Madness Manipulation is the ability to affect the sanity of other beings, usually in a manner that causes them to become insane. The user can absorb, create, control, and manipulate the madness or insanity of themselves, others or the madness energy around, whether increasing, decreasing, causing or otherwise chancing insanity, even manifesting the emotional energy to physical level and gain power from it."
+  },
+  {
+    "name": "Magic",
+    "tier": "Grand",
+    "score": 25,
+    "aliases": null,
+    "description": "Magic is a force often relied upon by certain mystical characters. It is a very wide subject, and the uses of magic vary greatly from character to character. It is often used to simulate other powers, such as reality warping or mind control. Magic is usually the primary force used for fighting off mystical foes such as demons. Famous users of magic include Zatara, his daughter Zatanna, Dr. Strange, and Dr. Fate, to name a few. Each of them uses magic differently, and can wield different magical powers."
+  },
+  {
+    "name": "Magic Absorption",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "The ability to absorb magic"
+  },
+  {
+    "name": "Magic Resistance",
+    "tier": "Major",
+    "score": 16,
+    "aliases": null,
+    "description": "Completely or partially resistant to magic."
+  },
+  {
+    "name": "Magma Manipulation",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The power to manipulate geothermal molten substances. The user can create, shape, compress, and manipulate molten rock, a mixture of molten or semi-molten rock, volatiles, and solids which may also contain suspended crystals, dissolved gas, and gas bubbles. This allows the user to cause earthquakes and eruptions, open fissures, manipulate heat, generate poisons, and even create islands."
+  },
+  {
+    "name": "Magnetism",
+    "tier": "Minor",
+    "score": 10,
+    "aliases": "Magnetokinesis",
+    "description": "The ability to control or generate magnetism."
+  },
+  {
+    "name": "Marksmanship",
+    "tier": "Ability",
+    "score": 2,
+    "aliases": "Accuracy",
+    "description": "Super accuracy is basically an ability to be an incredible marksman. This would mean that when the user throws an object, for instance, they will never miss the target they are throwing at. Characters with super accuracy are often assassins-for-hire."
+  },
+  {
+    "name": "Master Martial Artist",
+    "tier": "Ability",
+    "score": 2,
+    "aliases": null,
+    "description": "A master of different techniques of attacking and self-defense, with the purpose of physical and/or spiritual self-improvement. Some fictional characters often pass regular limits and become akin to superhuman (there are a lot of tales and legends about the miracles that some real life martial artists were capable of all as well)."
+  },
+  {
+    "name": "Master Tactician",
+    "tier": "Ability",
+    "score": 2,
+    "aliases": null,
+    "description": "The ability to be an extremely skilled strategic genius and apply this skill to several objectives."
+  },
+  {
+    "name": "Matter Absorption",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "The ability to absorb extraneous mass and add it to an individual's overall volume. And/or be able to use the material's properties."
+  },
+  {
+    "name": "Matter Manipulation",
+    "tier": "Major",
+    "score": 12,
+    "aliases": null,
+    "description": ""
+  },
+  {
+    "name": "Mechanical Aptitude",
+    "tier": "Ability",
+    "score": 1,
+    "aliases": null,
+    "description": ""
+  },
+  {
+    "name": "Melting",
+    "tier": "Base",
+    "score": 3,
+    "aliases": null,
+    "description": "The ability to liquefy solid matter."
+  },
+  {
+    "name": "Memory Manipulation",
+    "tier": "Base",
+    "score": 3,
+    "aliases": null,
+    "description": "The ability to influence memory. Can be carried out using empathic, mental, biological, electrical or data manipulation. Furthermore the memory can be comprehended and controlled in other ways (e.g., by magic)."
+  },
+  {
+    "name": "Metal Manipulation",
+    "tier": "Major",
+    "score": 10,
+    "aliases": null,
+    "description": "The ability to manipulate metal. Variation of Earth Manipulation. User can create, shape and manipulate metal, a solid material (an element, compound, or alloy) that is typically hard, shiny, and features good electrical and thermal conductivity. Metals are generally malleable, they can be hammered or pressed permanently out of shape without breaking or cracking, as well as fusible (able to be fused or melted) and ductile (able to be drawn out into a thin wire)."
+  },
+  {
+    "name": "Metaphysics Manipulation",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "User can manipulate Metaphysics, the ability to deal with all things undetectable by the physical senses. Metaphysics includes science, and goes beyond it to encompass all aspects and dimensions of existence experienced as \"reality\". In the conscious evolution, metaphysics has taken its place as one of the most comprehensive and most effective means of gaining knowledge and understanding about the true nature of the physical universe."
+  },
+  {
+    "name": "Mind Blast",
+    "tier": "Minor",
+    "score": 8,
+    "aliases": null,
+    "description": "Ability to overload another's mind causing pain, memory loss, loss of consciousness, vegetative state and/or death."
+  },
+  {
+    "name": "Mind Control",
+    "tier": "Major",
+    "score": 15,
+    "aliases": null,
+    "description": "Mind control is generally a superpower for supervillains, where the user takes control over the actions or reasoning of another. Characters with the power of mind control include Maxwell Lord and Purple Man. Limited mind control often comes along with telepathy, as sometimes exhibited specifically by X-Men members, especially Jean Grey and Professor X. This form of telepathy is used most often in Ultimate X-Men."
+  },
+  {
+    "name": "Mind Control Resistance",
+    "tier": "Base",
+    "score": 8,
+    "aliases": null,
+    "description": ""
+  },
+  {
+    "name": "Mind Transfer",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The Ability to transfer your mind into someone elses body"
+  },
+  {
+    "name": "Molecular Combustion",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "Molecular Combustion is the ability to speed up molecules or to blow things up from a feather to a car. Users of this power is Piper Halliwell from Charmed"
+  },
+  {
+    "name": "Molecular Dissipation",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "Molecular dissipation is the ability to cause solid obects to lose their molecular cohesion by absorbing the energy in their atomic bonds. The user can literally make any object vanish into thin air. The energy is still in existence but inside the user. This energy absorbtion can be used in emergencies as a way to survive without food."
+  },
+  {
+    "name": "Molecular Immobilization",
+    "tier": "Grand",
+    "score": 96,
+    "aliases": null,
+    "description": "Also known as temporal stasis. A very rare power, derived from chronokinesis, this is the ability to completely halt the flow of time by slowing down the molecules of the world around them till they stop completly. Obviously the character using this power must be immune to the time-stopping effect, otherwise it's rather useless. This is a very powerful ability, but is used very rarely and usually only in short bursts for escapes or stalling."
+  },
+  {
+    "name": "Molecular Manipulation",
+    "tier": "Major",
+    "score": 10,
+    "aliases": null,
+    "description": "The ability to manipulate energy and matter on a molecular level, which could be either the users own matter or that of their surroundings and nature."
+  },
+  {
+    "name": "Morality Manipulation",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "Other times called Morality Warping, Morality Manipulation is the power to manipulate one's own morality for certain acts. The user can manipulate morality to make people either ethically good or immorally evil by psychically kindling the targets' minds so that they succumb to the voice of truth or to the urge of sin. Although this power functions similarly as an offset to Mind Manipulation, Morality Manipulation makes the target join the user's side by force instead of forcing the target under the user's control to act as a slave or tool."
+  },
+  {
+    "name": "Multiple Limbs",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": ""
+  },
+  {
+    "name": "Multiple Personalities",
+    "tier": "Base",
+    "score": 3,
+    "aliases": null,
+    "description": "Also called Divided Mind, Multiple Personalities is the ability to have two or personalities in the mind. By switching between personalities, the user's body can change and gain different powers, abilities, skills, or physical and mental attributes. Users with Multiple Personalities may have collective intelligence (the user has a consciousness that allows them to replace a strategic headquarters or scientific institute with enough organization), a mental resistance (a consciousness that allows resistance to mental influences because even if one of them succumbs to external control, the other personalities immediately bring the wayward), or even a strong personality that can be activated in some ways when there's a need for its services. Of course, the personalities are still autonomous and memory may be lost when switched with another personality or one of the personalities may unknowingly erase the memories that are important to the other. Because there's no mental direction at the other faculties of the body, one dominant personality has to constantly watch all the other consciousness which severely limits other abilities in certain situations."
+  },
+  {
+    "name": "Nanotechnology",
+    "tier": "Minor",
+    "score": 12,
+    "aliases": null,
+    "description": "Nanotechnology is a branch of technology that focuses on manipulating each atom and molecule and is often used to refer to nanorobotics, the theoretical use of extremely small machines that run on a microscopic level and work within the bodies of living organisms to do a variety of functions, such as medical treatments and exterminating pathogens. In fiction, nanomachines often have a variety of other functions as well and may allow the user to hack into or deal with technological systems, alter their own biology, regenerate from injury, and live longer than usual or even become immortal, among some other applications. Some beings may even be composed out of nanomachines."
+  },
+  {
+    "name": "Natural Armor",
+    "tier": "Base",
+    "score": 3,
+    "aliases": null,
+    "description": "Natural armor is a power that exists in real life, in animals such as armadillos and tortoises. Not surprisingly, this quality has also been applied to extremely tough superheroes such as the Thing. Natural armor often provides a form of invulnerability, like the armor of Colossus or the Thing."
+  },
+  {
+    "name": "Natural Weapons",
+    "tier": "Base",
+    "score": 3,
+    "aliases": null,
+    "description": "Natural weapons are especially associated with animal-like characters, as they include thing such as claws and sharp teeth, as well as quills, spines, and many other qualities usually derived from animals."
+  },
+  {
+    "name": "Necromancy",
+    "tier": "Major",
+    "score": 12,
+    "aliases": null,
+    "description": "Necromancy refers to the ability to control the bodies and/or souls of the deceased. This is most frequently depicted as being able to resurrect the dead to varying to degrees, from shambling corpses to conscious zombies to even complete Resurrection. More powerful users and directly convert the living into the undead, allowing them to bypass conventional durability by turning an opponent into a mindless zombie at the user's control."
+  },
+  {
+    "name": "Negative Speed Force",
+    "tier": "Grand",
+    "score": 25,
+    "aliases": null,
+    "description": "The Negative Speed Force is an artificial extradimensional energy that was created by Eobard Thawne at some point after replicating the Flash's powers. Speedsters with a connection to the Speed Force can gain a connection to the Negative Speed Force by exercising their fear, hate, and anguish to such an extent that it corrupts them from the inside."
+  },
+  {
+    "name": "Nen Manipulation",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "Nen \"Sense\"; \"Mind Force\" is the manipulation of the life energy within every living being and is the overarching term for many techniques regarding the manipulation of life energy in the world of Hunter x Hunter. It can also be called Aura. A person capable of utilising Nen is colloquially referred to as a \"Nen User\"."
+  },
+  {
+    "name": "Neon Blasts",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "User shoots blasts of neon energy, (Purple, Pink and Blue fused)"
+  },
+  {
+    "name": "New Power",
+    "tier": "Grand",
+    "score": 35,
+    "aliases": null,
+    "description": "Old Power And Power Cosmic Combination"
+  },
+  {
+    "name": "Nigh-Omnipotence",
+    "tier": "Omni",
+    "score": 7500,
+    "aliases": null,
+    "description": ""
+  },
+  {
+    "name": "Nigh-Omnipresence",
+    "tier": "Omni",
+    "score": 384,
+    "aliases": null,
+    "description": ""
+  },
+  {
+    "name": "Nigh-Omniscience",
+    "tier": "Omni",
+    "score": 384,
+    "aliases": null,
+    "description": ""
+  },
+  {
+    "name": "Ninjutsu",
+    "tier": "Ability",
+    "score": 1,
+    "aliases": null,
+    "description": "The ability to use Ninjutsu, the historic style of martial arts, tactics, strategy, and espionage of unconventional and guerrilla warfare."
+  },
+  {
+    "name": "Non-Corporeal",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "Non-Corporeal (or incorporeal) beings are those who have no true physical form. Though they may have physical avatars or bodies, but their true essence exists non-physically, whether as a soul, as energy, or as an abstract concept. Being non-corporeal is very different than Intangibility, as an intangible being's body is their true body, it just can't be affected by conventional physical forces. A non-corporeal being does not usually have any kind of concrete, defined form, and can appear in many different forms if they wish, though the destruction of these bodies is of little relevance to the entity behind them."
+  },
+  {
+    "name": "Non-Physical Interaction",
+    "tier": "Base",
+    "score": 2,
+    "aliases": null,
+    "description": "The power to interact with intangible or non-corporeal beings. Users can both see and interact with intangible, or non-corporeal, abstract, and nonexistent life-forms and entities, allowing them to make physical contact and possibly cause harm."
+  },
+  {
+    "name": "Nonexistent Physiology",
+    "tier": "Base",
+    "score": 2,
+    "aliases": "Inexistant Mimicry/Physiology ,Nonexistence Mimicry, Superficiality",
+    "description": "the ability to lack certain aspects of ones existence, to paradoxically 'exist', yet lack certain identifiable traits of existence, or exist outside of a particular scope of 'existence'."
+  },
+  {
+    "name": "Nothingness Aspect Manifestation",
+    "tier": "Major",
+    "score": 48,
+    "aliases": null,
+    "description": "Be an aspect of nothingness"
+  },
+  {
+    "name": "Nova Force",
+    "tier": "Grand",
+    "score": 25,
+    "aliases": null,
+    "description": "The Nova Force is wielded by all Nova Corps Centurions. After the events of Annihilation, where all members of the Nova Corps was killed, Nova had to absorb all of the Nova Force thus enhancing his powers by several orders of magnitude."
+  },
+  {
+    "name": "Ocular Techniques",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "The user of this ability can also gain special powers from their eyes, possibly by having special eyes containing a power that gives them abilities or enhancements. Such as: Byakugan, Jōgan, Ketsuryūgan, Mangekyō Sharingan, Ranmaru's Kekkei Genka, Rinne Sharingan, Rinnegan, Sharingan, Tenseigan from narut's universe"
+  },
+  {
+    "name": "Odin Force",
+    "tier": "Grand",
+    "score": 48,
+    "aliases": null,
+    "description": "Ancient and vast Asgardian power wielded by Odin and later inherited by Thor."
+  },
+  {
+    "name": "Old Power",
+    "tier": "Major",
+    "score": 10,
+    "aliases": null,
+    "description": "The Old Power (or Oldstrong Power) is a source of energy derived from a planet that can be wielded and boost the user's abilities to an incalculable level, as well as give the wielder earth-manipulation abilities and an energy-enhanced strike, similar to that of the Iron Fist"
+  },
+  {
+    "name": "Omega Effect",
+    "tier": "Grand",
+    "score": 25,
+    "aliases": null,
+    "description": "The Omega Effect is a strange force of entropy, perhaps a destructive side to the often creative nature of the Source. It is Darkseid's possession of the Omega Effect that allows him to fire his Omega Beams from his eyes. These beams are capable of vaporizing, erasing, as energy blasts/energy beams or transmuting any form of matter, living or non-living. They can send/retrieve something from different places, times, dimensions, and even universes."
+  },
+  {
+    "name": "Omega Sanction",
+    "tier": "Minor",
+    "score": 5,
+    "aliases": null,
+    "description": "Omega Sanction, the Death that is Life, also known as \"The Life Trap\". The Omega Sanction, when inflicted on an individual, traps them in an endless succession of synthetic lives, each one more degrading and hopeless than the last."
+  },
+  {
+    "name": "Omni-Sense",
+    "tier": "Minor",
+    "score": 8,
+    "aliases": null,
+    "description": "The ability to see through space and time from any location."
+  },
+  {
+    "name": "Omnifabrication",
+    "tier": "Base",
+    "score": 12,
+    "aliases": null,
+    "description": "To build things with ease"
+  },
+  {
+    "name": "Omnilingualism",
+    "tier": "Base",
+    "score": 5,
+    "aliases": null,
+    "description": "Omnilingualism is the ability to decipher any language. This is not a common power, though one notable user of omnilingualism is Cypher of the New Mutants. Starfire also has a form of omnilingualism. She can instantly learn a being's language through physical contact with that being. The Pre-Crisis version of Superman knew nearly all Earthly and alien languages, effectively giving him this power."
+  },
+  {
+    "name": "Omnilock",
+    "tier": "Omni",
+    "score": 250,
+    "aliases": null,
+    "description": "A power where the user resides outside of everything such as space, time, duality, probability, possibility, nothingness, existence, and so on. They cannot be affected by anything like temporal paradoxes, reality-warping, universal concepts, or even existence erasure. Omnipotence can counter it, however, as it's a sub-power of such an ability."
+  },
+  {
+    "name": "Omnimimicry",
+    "tier": "Major",
+    "score": 15,
+    "aliases": null,
+    "description": "A power to turn ones self into any type of energy, matter, animal or character."
+  },
+  {
+    "name": "Omnipotence",
+    "tier": "Omni",
+    "score": 15000,
+    "aliases": "All Powerful",
+    "description": "Omnipotence (literally, \"all power\") is power with no limits or inexhaustible, in other words, unlimited power."
+  }
+]

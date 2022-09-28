@@ -1,20 +1,24 @@
 package org.acme;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import org.jboss.logging.Logger;
+import static org.acme.Constants.CHARACTERS;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import static org.acme.Constants.CHARACTERS;
+import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Inject;
+
+import org.jboss.logging.Logger;
+import org.jsoup.nodes.Element;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 @ApplicationScoped
 public class Scraper {
@@ -48,6 +52,31 @@ public class Scraper {
         return new Character(id, entry.url(), name, otherName, level, picture, align, powers);
     }
 
+    public void scrapeSuperPowers() {
+        String url = Constants.SUPER_DB_ROOT + Constants.SUPER_POWERS_CONTEXT;
+        logger.infof("Scrapping Super Powers from %s", url);
+        List<Power> powers = new ArrayList<>();
+        var document = helper.downloadAndParse(url);
+        var powersLists = document.getElementsByClass("class-list");
+        for (Element powerList : powersLists) {
+            var powerElements = powerList.getElementsByTag("a");
+            for (Element powerElement : powerElements) {
+                var powerUrl = powerElement.attr("href");
+                logger.infof("\tScrapping Power: %s", Constants.SUPER_DB_ROOT + powerUrl);
+                var powerDocument = helper.downloadAndParse(Constants.SUPER_DB_ROOT + powerUrl);
+                var power = PowerScraper.extractSuperPower(powerDocument);
+                logger.info(power);
+                powers.add(power);                
+            }
+        }
+
+        try {
+            this.writeSuperPowers(powers);
+        } catch (IOException e) {
+            logger.error("Unable to scrape and persist super powers", e);
+        }
+    }
+
     public void write(Character character) throws IOException {
         var src = character.picture;
         if (src.startsWith("https://")) {
@@ -66,6 +95,15 @@ public class Scraper {
         File file = new File(CHARACTERS, character.id + ".json");
         Files.writeString(file.toPath(), mapper.writeValueAsString(character));
         logger.infof("File written for %s", character.name);
+    }
+
+    private void writeSuperPowers(List<Power> powers) throws IOException {
+        if (! Constants.POWERS.isDirectory()) {
+            Constants.POWERS.mkdirs();
+        }
+        File file = new File(Constants.POWERS, "super-powers.json");
+        Files.writeString(file.toPath(), mapper.writeValueAsString(powers));
+        logger.infof("Super Powers written as JSON on %s", file.getAbsolutePath());
     }
 
     ExecutorService executor = Executors.newFixedThreadPool(10);
