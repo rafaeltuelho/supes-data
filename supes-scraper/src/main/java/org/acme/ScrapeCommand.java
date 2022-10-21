@@ -15,6 +15,9 @@ public class ScrapeCommand implements Runnable {
     @CommandLine.Option(names = "--scrape", required = false)
     boolean scrape;
 
+    @CommandLine.Option(names = "--characters", required = false)
+    boolean characters;
+
     @CommandLine.Option(names = "--powers", required = false)
     boolean powers;
 
@@ -42,23 +45,23 @@ public class ScrapeCommand implements Runnable {
     @Override
     public void run() {
         List<CharacterList.Entry> entries = characterList.entries();
-        // if (scrape) {
-        //     scraper.scrapeAll(entries);
-        // }
+        if (scrape && characters) {
+            scraper.scrapeAll(entries);
+        }
 
+        if (scrape && powers) {
+            scraper.scrapeSuperPowers();
+        }
 
-        db.load();
-        powerDb.load();
         if (generate) {
+            db.load();
+            powerDb.load();
             output.write(db.list(), powerDb.map());
         }
 
     //    var url = "/brother-voodoo/10-39/";
     //    var name = "Brother Voodoo";
     //    logger.infof("%s", scraper.scrape(new CharacterList.Entry(name, url)));
-        if (scrape && powers) {
-            scraper.scrapeSuperPowers();
-        }
     }
 
 
