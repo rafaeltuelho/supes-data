@@ -65,22 +65,7 @@ public class CharacterScraper {
         }
         return powers;
     }
-
-    static List<String> extractSuperPowers(Document document) {
-        List<String> powers = new ArrayList<>();
-        for (Element element : document.select(".fa-bolt")) {
-            Element parent = element.parent();
-            if (parent != null) {
-                // String powerUrl = parent.absUrl("href");
-                String powerUrl = parent.attr("href");
-                String text = parent.text();
-                if (!"super powers".equalsIgnoreCase(text) && !"powers".equalsIgnoreCase(text)) {
-                    powers.add(powerUrl);
-                }
-            }
-        }
-        return powers;
-    }
+    
     public static String extractPicture(Document document) {
         Elements select = document.select(".portrait img");
         return Constants.SUPER_DB_ROOT + select.attr("src");

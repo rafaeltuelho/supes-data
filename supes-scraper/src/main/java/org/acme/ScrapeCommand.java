@@ -35,19 +35,22 @@ public class ScrapeCommand implements Runnable {
     @Inject Scraper scraper;
 
     @Inject CharacterDb db;
+    @Inject PowerDb powerDb;
 
     @Inject Output output;
 
     @Override
     public void run() {
         List<CharacterList.Entry> entries = characterList.entries();
-        if (scrape) {
-            scraper.scrapeAll(entries);
-        }
+        // if (scrape) {
+        //     scraper.scrapeAll(entries);
+        // }
+
 
         db.load();
+        powerDb.load();
         if (generate) {
-            output.write(db.list());
+            output.write(db.list(), powerDb.map());
         }
 
     //    var url = "/brother-voodoo/10-39/";

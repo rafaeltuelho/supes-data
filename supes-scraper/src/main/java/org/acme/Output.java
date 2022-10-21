@@ -1,10 +1,5 @@
 package org.acme;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import org.jboss.logging.Logger;
-
-import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
 import java.io.File;
 import java.io.IOException;
 import java.io.UncheckedIOException;
@@ -12,15 +7,46 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+import java.util.concurrent.atomic.AtomicInteger;
+
+import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Inject;
+
+import org.jboss.logging.Logger;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 @ApplicationScoped
 public class Output {
 
     private static final String REPO_ROOT = "https://github.com/cescoffier/supes-data/raw/master/characters";
 
-    private static final String IMPORT_LINES = """
-            INSERT INTO %s(id, name, otherName, picture, powers, level)
-            VALUES (nextval('hibernate_sequence'), '%s', '%s', '%s', '%s', %d);
+    private static final String HERO_IMPORT_DDL = """
+            -- new hero
+            INSERT INTO hero(id, name, otherName, picture, level)
+            VALUES (nextval('hero_id_seq'), '%s', '%s', '%s', %d);
+            """;
+    private static final String VILLAIN_IMPORT_DDL = """
+            -- new villain
+            INSERT INTO villain(id, name, otherName, picture, level)
+            VALUES (nextval('villain_id_seq'), '%s', '%s', '%s', %d);
+            """;
+    private static final String POWER_IMPORT_DDL = """
+            INSERT INTO power(id, name, description, aliases, score, tier) 
+            VALUES(%d, '%s', '%s', '%s', %d, '%s');
+            """;
+    private static final String HERO_POWER_ASSOCIATION_IMPORT_DDL = """
+            INSERT INTO hero_power(hero_id, power_id)
+            VALUES(currval('hero_id_seq'), %d);
+            """;
+    private static final String VILLAIN_POWER_ASSOCIATION_IMPORT_DDL = """
+            INSERT INTO villain_power(villain_id, power_id)
+            VALUES(currval('villain_id_seq'), %d);
+            """;
+    private static final String ALTER_POWER_SEQUENCE_DDL = """
+            ALTER SEQUENCE power_id_seq RESTART WITH %d;
             """;
 
     @Inject
@@ -29,30 +55,70 @@ public class Output {
     @Inject
     Logger logger;
 
-    public void write(List<Character> characters) {
+    public void write(List<Character> characters, Map<String, Power> powers) {
         StringBuilder importHeroes = new StringBuilder();
         StringBuilder importVillains = new StringBuilder();
         List<OutputCharacter> heroes = new ArrayList<>();
         List<OutputCharacter> villains = new ArrayList<>();
+        AtomicInteger heroPowerIdSeq = new AtomicInteger(1);
+        AtomicInteger villainPowerIdSeq = new AtomicInteger(1);
         for (Character character : characters) {
             if (character.isHero()) {
-                importHeroes.append(IMPORT_LINES.formatted("hero", character.name, character.otherName,
-                        REPO_ROOT + "/" + character.picture,
-                        String.join("", character.powers), character.level));
+                importHeroes.append(
+                    HERO_IMPORT_DDL.formatted(
+                        character.name, character.otherName, REPO_ROOT + "/" + character.picture, character.level));
+                
+                character.powers.forEach(p -> {
+                    //lookup power
+                    logger.debugf("looking for [%s] in the Powers' map...", p);
+                    var power = Optional.ofNullable(powers.get(p));
+                    power.ifPresentOrElse(pp -> {
+                        if (pp.id == 0) { //not persisted yet
+                            pp.id = heroPowerIdSeq.getAndIncrement();
+                            importHeroes.append(POWER_IMPORT_DDL.formatted(
+                                pp.id, scapeSingleQuotes(pp.name), scapeSingleQuotes(pp.description), scapeSingleQuotes(pp.aliases), pp.score, scapeSingleQuotes(pp.tier)));
+                        }
+                        importHeroes.append(HERO_POWER_ASSOCIATION_IMPORT_DDL.formatted(pp.id));
+                    }, () -> {
+                        logger.debugf("\t>>> [%s] not found in the Powers' map!", p);
+                    });
+                });
                 heroes.add(new OutputCharacter(character));
-            } else {
-                importVillains.append(IMPORT_LINES.formatted("villain", character.name, character.otherName,
-                        REPO_ROOT + "/" + character.picture,
-                        String.join("", character.powers), character.level));
+            } else { // Villain
+                importVillains.append(
+                    VILLAIN_IMPORT_DDL.formatted(
+                        character.name, character.otherName, REPO_ROOT + "/" + character.picture, character.level));
+
+                character.powers.forEach(p -> {
+                    //lookup power
+                    logger.debugf("looking for [%s] in the Powers' map...", p);
+                    var power = Optional.ofNullable(powers.get(p));
+                    power.ifPresentOrElse(pp -> {
+                        if (pp.id == 0) { //not persisted yet
+                            pp.id = villainPowerIdSeq.getAndIncrement();
+                            importVillains.append(POWER_IMPORT_DDL.formatted(
+                                pp.id, scapeSingleQuotes(pp.name), scapeSingleQuotes(pp.description), scapeSingleQuotes(pp.aliases), pp.score, scapeSingleQuotes(pp.tier)));
+                        }
+                        importVillains.append(VILLAIN_POWER_ASSOCIATION_IMPORT_DDL.formatted(pp.id));
+                    }, () -> {
+                        logger.debugf("\t>>> [%s] not found in the Powers' map!", p);
+                    });
+                });
                 villains.add(new OutputCharacter(character));
             }
         }
 
+        importHeroes.append(ALTER_POWER_SEQUENCE_DDL.formatted(heroPowerIdSeq.get()));
+        importVillains.append(ALTER_POWER_SEQUENCE_DDL.formatted(villainPowerIdSeq.get()));
         writeImportFiles(importHeroes, importVillains);
         writeDBFiles(heroes, villains);
 
         logger.infof("Wrote %d heroes", heroes.size());
         logger.infof("Wrote %d villains", villains.size());
+    }
+
+    private String scapeSingleQuotes(String str) {
+        return str != null ? str.replace("'", "''") : null;
     }
 
     private void writeImportFiles(StringBuilder importHeroes, StringBuilder importVillains) {
