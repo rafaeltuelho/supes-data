@@ -6,6 +6,7 @@ import java.io.UncheckedIOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -14,6 +15,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 
+import org.apache.commons.lang3.SerializationUtils;
 import org.jboss.logging.Logger;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -55,15 +57,21 @@ public class Output {
     @Inject
     Logger logger;
 
-    public void write(List<Character> characters, Map<String, Power> powers) {
+    public void write(final List<Character> characters, final Map<String, Power> powersMap) {
+
         StringBuilder importHeroes = new StringBuilder();
         StringBuilder importVillains = new StringBuilder();
         List<OutputCharacter> heroes = new ArrayList<>();
         List<OutputCharacter> villains = new ArrayList<>();
         AtomicInteger heroPowerIdSeq = new AtomicInteger(1);
         AtomicInteger villainPowerIdSeq = new AtomicInteger(1);
+        // clone the maps to avoid sequence ids clashing 
+        Map<String, Power> powersMapForHeros = SerializationUtils.<HashMap<String, Power>>clone((HashMap)powersMap);
+        Map<String, Power> powersMapForVillains = SerializationUtils.<HashMap<String, Power>>clone((HashMap)powersMap);
+
         for (Character character : characters) {
             if (character.isHero()) {
+                logger.debugf("Importing Hero [%s]", character.name);
                 importHeroes.append(
                     HERO_IMPORT_DDL.formatted(
                         character.name, character.otherName, REPO_ROOT + "/" + character.picture, character.level));
@@ -71,7 +79,7 @@ public class Output {
                 character.powers.forEach(p -> {
                     //lookup power
                     logger.debugf("looking for [%s] in the Powers' map...", p);
-                    var power = Optional.ofNullable(powers.get(p));
+                    var power = Optional.ofNullable(powersMapForHeros.get(p));
                     power.ifPresentOrElse(pp -> {
                         if (pp.id == 0) { //not persisted yet
                             pp.id = heroPowerIdSeq.getAndIncrement();
@@ -85,6 +93,7 @@ public class Output {
                 });
                 heroes.add(new OutputCharacter(character));
             } else { // Villain
+                logger.debugf("Importing Villain [%s]", character.name);
                 importVillains.append(
                     VILLAIN_IMPORT_DDL.formatted(
                         character.name, character.otherName, REPO_ROOT + "/" + character.picture, character.level));
@@ -92,10 +101,11 @@ public class Output {
                 character.powers.forEach(p -> {
                     //lookup power
                     logger.debugf("looking for [%s] in the Powers' map...", p);
-                    var power = Optional.ofNullable(powers.get(p));
+                    var power = Optional.ofNullable(powersMapForVillains.get(p));
                     power.ifPresentOrElse(pp -> {
                         if (pp.id == 0) { //not persisted yet
                             pp.id = villainPowerIdSeq.getAndIncrement();
+                            logger.debugf("importing power [%s] with id [%d]", pp.name, pp.id);
                             importVillains.append(POWER_IMPORT_DDL.formatted(
                                 pp.id, scapeSingleQuotes(pp.name), scapeSingleQuotes(pp.description), scapeSingleQuotes(pp.aliases), pp.score, scapeSingleQuotes(pp.tier)));
                         }

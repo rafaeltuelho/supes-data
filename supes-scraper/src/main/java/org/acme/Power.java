@@ -1,10 +1,11 @@
 package org.acme;
 
+import java.io.Serializable;
 import java.util.Objects;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-public class Power {
+public class Power implements Serializable {
   @JsonIgnore
   public int id = 0;
   public String name;
