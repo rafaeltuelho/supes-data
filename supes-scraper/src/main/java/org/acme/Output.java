@@ -23,7 +23,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @ApplicationScoped
 public class Output {
 
-    private static final String REPO_ROOT = "https://github.com/cescoffier/supes-data/raw/master/characters";
+    private static final String REPO_ROOT = "https://github.com/rafaeltuelho/supes-data/raw/master/characters";
 
     private static final String HERO_IMPORT_DDL = """
             -- new hero
